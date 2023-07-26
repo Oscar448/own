@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    background-color: burlywood;
+    animation: mycolor 4s infinite;
+    
+}
+
+@keyframes mycolor {
+    from {
+        background-color:black;
+    }
+
+    to {
+        background-color: skyblue;
+    }
+
+}
+
+
+.container {
+
+    display: flex;
+    height: auto;
+}
+
+.logo{
+    margin-left: 2px;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    height: 150px;
+    width: 100px;
+    display: flex;
+    animation: delight 4s infinite;
+    border-radius: 70px;
+}
+@keyframes delight{
+    from{
+    background-color: red;
+    
+    }
+    to{
+        background-color:skyblue ;
+        
+    }
+}
+
+.main1 {
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.main1 ul li{
+    list-style: none;
+    justify-content: space-between;
+    display: inline;
+    letter-spacing: 2px;
+
+
+}
+
+.main1 ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 2px;
+    border-bottom: 2px;
+}
+
+.main1 ul li a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+input:checked {
+    color: brown;
+    
+}
+.item{
+     font-size: 24px;
+     padding: 20px;
+     display:grid;
+     margin: 10px;
+     text-align: center;
+     width: 250px;
+     height: 280px;
+     
+}
+.photo{
+margin-top: -300px;
+border-radius:20 px;
+}
+.item  :first-child {
+    color:yellow;
+}
+.item :last-child {
+    color:white;
+}
+
+.item > span{
+    
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    font-size: 24px;    
+}
+
+.item span{
+    background-color:skyblue;
+     animation: oscar 4s infinite ;
+}
+
+
+@keyframes oscar {
+    from {
+    background-color:red;
+    border-radius: 85px;
+    }
+
+    to {
+        background-color:skyblue;
+        opacity: 0.2;
+    }
+}
+.footer{
+    
+    background-color: darkslategray;
+    text-align: center;
+    height: 150px;
+    margin-top: 2.5em;
+    
+}
+.footer h3 span{
+    color: aqua;
+}
+.footer h3 span{
+    color: white;
+}
+.footer h5{
+    color: white;
+    text-align: right;
+    margin-right: 40px;
+}
+body{
+    height: 50%;
+    background-size: 20px;
+}

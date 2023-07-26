@@ -1,0 +1,70 @@
+ul{
+margin-left: 5px;
+
+font-weight: bold;
+list-style: none;  
+text-align: center;
+text-transform: uppercase;
+color: aliceblue;
+}
+li{
+    padding: 8px;
+    display: flex;
+    float: right;
+}
+.h{
+    color: blue;
+font-size: 20px;
+text-align: center;
+background-color: burlywood;
+
+}
+.cloth{
+color: bisque ;
+background-image: image-set();
+text-align: center;
+
+
+}
+.icon {
+  text-decoration: double; 
+  font-size: 60px;
+  text-align: right;
+  
+
+}
+
+.form{
+   text-align: right;
+   color: rgb(156, 9, 185); 
+ 
+}
+.h2{
+ color: 
+ text-align: center;
+ background-color: burlywood;  
+}
+.body{
+    background-color: burlywood;
+    
+}
+
+
+
+
+.photo{
+    background: fixed;
+    background-color: aliceblue;
+    
+}
+p{
+    font-size: small;
+}
+footer{
+  color: rgb(128, 2, 247); 
+  background-color:burlywood;
+  font-size: large;
+ 
+  
+}
+  
